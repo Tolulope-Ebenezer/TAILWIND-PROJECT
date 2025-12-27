@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tolulope-Ebenezer/TAILWIND-PROJECT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tolulope-Ebenezer/TAILWIND-PROJECT/issues"
+  },
+  "homepage": "https://github.com/Tolulope-Ebenezer/TAILWIND-PROJECT#readme",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18"
+  }
+}
